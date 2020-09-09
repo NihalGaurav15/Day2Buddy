@@ -36,6 +36,8 @@ namespace ConsoleApp1
                 Console.WriteLine("Product is {0}", res);
                 res = a-b;
                 Console.WriteLine("Difference is {0}", res);
+                res = a / b;
+                Console.WriteLine("The division is {0}",res);
                 
 
             }
@@ -50,6 +52,8 @@ namespace ConsoleApp1
                 Console.WriteLine("Sum is {0}", res);
                 res = a * b;
                 Console.WriteLine("Product is {0}", res);
+                res = a / b;
+                Console.WriteLine("The division is {0}",res);
             }
             
         }
